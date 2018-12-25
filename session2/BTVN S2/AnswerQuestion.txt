@@ -1,0 +1,24 @@
+1. A Boolean value is either true or false.
+    3 different expression that results a Boolean type:
+      >>>5 == 6
+      the result is False
+      >>>5 > 2
+      the result is True
+      >>>5 < 9
+      the result is True   
+
+2. A flow chart is a diagram of the sequence of movements 
+of things involed in a complex system.   
+
+3. Nest conditional decribe a conditional be nested within another.
+if a == 0:
+    print("Phuong trinh co mot nghiem duy nhat")
+    
+else:
+    delta = b**2 - 4*a*c
+    if d == 0:
+        print("Phuong trinh co nghiem kep")
+    elif d < 0:
+        print("Phuong trinh vo nghiem")
+    else:
+        print("Phuong trinh co hai nghiem phan biet")
