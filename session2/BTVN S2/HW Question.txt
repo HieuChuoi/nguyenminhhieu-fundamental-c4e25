@@ -1,0 +1,75 @@
+Write a program that asks user their height (cm) and weight (kg), and then calculate their BMI (Body Mass Index):
+BMI = mass (kg) / (height(m) x height(m) )
+Note: you must do the conversion from cm to m before calculation
+
+Then based on the BMI, tell them that they are:
+Severely underweight if BMI < 16
+Underweight if BMI is between 16 and 18.5
+Normal if BMI is between 18.5 and 25 
+Overweight if BMI is between 25 and 30
+Obese if BMI is more than 30
+
+Write a program that
+Asks users enter a number and then calculates factorial of n: (1 * 2 * 3 *... *n)
+Study how to print without moving to a new line
+Each time we call print(...) to print out something, python will automatically move to a new line, for example, the following snippet:
+
+print("Hello")
+print(",my name")
+print("is B-max")
+
+will result:
+
+Hello
+,my name
+is B-max
+
+Your task: Try to search and learn how to print without moving to new line,:
+
+print("Hello", ...) 
+print(",my name", ...)
+print("is B-max", ...)
+
+# "..." is the piece of code you would add
+
+so that the result would be
+
+Hello,my name is B-max
+
+Print out the following patterns, remember that the number of columns and rows can be changed later, so try to write programs that can scale
+
+20 x 1 stars:
+
+            * * * * * * * * * * * * * * * * * * * * 
+
+n stars (n is entered by users)
+
+Enter a number: 17
+* * * * * * * * * * * * * * * * * 
+
+9 stars and xs in total
+
+      x * x * x * x * x
+
+n stars and xs in total (n is entered by users)
+
+Enter a number: 13
+x * x * x * x * x * x * x
+
+You can use print(), (yes, print with nothing inside the parentheses ()) to move to a new line, try it
+
+7 x 3 stars
+    
+* * * * * * *
+* * * * * * *
+* * * * * * *
+        
+n x m stars (n, m are entered by users)
+
+Enter n: 5
+Enter m: 3
+
+* * * * *
+* * * * *
+* * * * *
+
