@@ -1,0 +1,4 @@
+_ A nested list is a list that appears as an element in another list.
+Ex: x = ["hieu", 9, "huyen", [10, 11]]
+
+_Yes, the elements of a list don't have to be the same type.
