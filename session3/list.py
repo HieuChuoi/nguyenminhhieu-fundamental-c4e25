@@ -35,4 +35,8 @@ items = ["Bun dau mam tom","Pho", "Banh My", "Lau",]
 # print(items)
 
 # items.pop(2)
+<<<<<<< HEAD
 # print(items)x
+=======
+# print(items)
+>>>>>>> 568139aca0a9d25b55c1a3ddaff748321b409e37
