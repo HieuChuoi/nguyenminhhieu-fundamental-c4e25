@@ -6,7 +6,7 @@ inventory = {
 
 inventory["pocket"] = ""
 inventory["pocket"] = ["seashell", "strange berry", "lint"]
-del inventory["backpack"][1]
+inventory["backpack"].remove("dagger")
 inventory["gold"] += 50
 
 print(inventory)
